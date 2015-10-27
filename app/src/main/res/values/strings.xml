@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">DBin</string>
+
+    <string name="title_activity_main"> <b>DBin</b> </string>
+    <string name="title_activity_config"> <b>Cài đặt</b> </string>
+    <string name="title_activity_show_data"> <b>Dữ liệu thùng rác</b></string>
+
+
+    <!--String for buttons-->
+    <string name="str_btnStart"> Bắt đầu công việc </string>
+    <string name="str_btnStop"> Kết thúc công việc </string>
+    <string name="str_btnConfig"> Cài đặt công việc</string>
+    <string name="str_btnSaveConfig"> Lưu hay đổi </string>
+    <string name="str_btnShowData">Dữ liệu thùng rác</string>
+
+    <!--String for textView -->
+    <string name="str_time_start"> Thời gian bắt đầu </string>
+    <string name="str_time_stop"> Thời gian kết thúc </string>
+    <string name="str_floor_first">Tầng đầu quản lý </string>
+    <string name="str_floor_end">Tầng cuối quản lý </string>
+    <string name="str_interval_time">Thời gian lặp lại</string>
+    <string name="str_max_weight">Khối lượng </string>
+
+    <!--String for message alert -->
+    <string name="str_confirm_title">Thông báo xác nhận </string>
+    <string name="str_confirm_message">Bạn có muốn lưu thay đổi không ?</string>
+
+    <string name="str_title">Dữ liệu của bạn đã tắt</string>
+    <string name="str_internet_fail">Bật dữ liệu hoặc Wifi trong thiết bị</string>
+
+    <string name="str_data_off_title">Dữ liệu không cập nhật</string>
+    <string name="str_data_off_message">Bắt đầu lại công việc để xem thông tin</string>
+
+    <string name="str_btn_yes">Có</string>
+    <string name="str_btn_no">Không</string>
+
+    <string name="str_invaild_empty">Hãy điền đầy đủ vào các chỗ trống</string>
+    <string name="str_invaild_logic_floor">Tầng cuối quản lý không đươc nhỏ hơn tầng bắt đầu quản lý</string>
+    <string name="str_invalid_logic_time">Thời gian kết thúc không được nhỏ hơn thời gian bắt đầu</string>
+
+
+    <!-- string for notification message -->
+    <string name="str_notification_start_time_title">Bắt đầu công việc</string>
+    <string name="str_notification_start_time_message">Vào chương trình và bắt đầu công việc của bạn</string>
+    <string name="str_notification_start_time_ticker">Bắt đầu công việc nào !!!</string>
+
+    <string name="str_notification_end_time_title">Kết thúc công việc</string>
+    <string name="str_notification_end_time_message">Vào chương trình và kết thúc công việc của bạn</string>
+    <string name="str_notification_end_time_ticker">Kết thúc và nghỉ ngơi nào !!!</string>
+
+    <string name="str_notification_check_tile">Có rác cần thu gom</string>
+    <string name="str_notification_check_message">Nhấn vào đây để xem chi tiết</string>
+    <string name="str_notification_check_ticker">Có rác cần thu gom</string>
+
+    <!-- string for toast message -->
+    <string name="str_toast_start_time">Bắt đầu lấy dữ liệu từ thùng rác</string>
+    <string name="str_toast_end_time">Kết thúc lấy dữ liệu từ thùng rác</string>
+    <string name="title_activity_data">DataActivity</string>
+    <string name="str_toast_off">Nếu đang chạy công việc, tắt và mở lại "Công Việc" để thay đổi được thực hiện </string>
+    <string name="str_unactive">Công việc chưa được bắt đầu </string>
+
+    <!-- string for progress dialog -->
+    <string name="str_progress_title">Please wait...</string>
+    <string name="str_progress_message">Đang tải dữ liệu, vui lòng chờ giây lát </string>
+
+    <!--string for listview -->
+    <string name="str_listview_floor_title">TẦNG </string>
+
+    <string-array name="string_array_name">
+        <item>Dữ liệu</item>
+        <item>Đường đi</item>
+    </string-array>
+</resources>

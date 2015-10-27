@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/ColorBackground">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+
+        <Button
+            android:id="@+id/btnStart"
+            android:layout_height="wrap_content"
+            style="@style/CustomStyleButton"
+            android:text="@string/str_btnStart"
+            android:drawableLeft="@mipmap/ic_play_circle_filled_black_24dp_" />
+
+        <Button
+            android:id="@+id/btnStop"
+            android:layout_height="wrap_content"
+            android:text="@string/str_btnStop"
+            style="@style/CustomStyleButton"
+            android:layout_marginTop="40dp"
+            android:drawableLeft="@mipmap/ic_pause_circle_filled_black_24dp_"/>
+
+        <Button
+            android:id="@+id/btnShowData"
+            android:layout_height="wrap_content"
+            android:text="@string/str_btnShowData"
+            style="@style/CustomStyleButton"
+            android:layout_marginTop="40dp"
+            android:drawableLeft="@mipmap/ic_info_black_24dp_"/>
+
+        <Button
+            android:id="@+id/btnConfig"
+            android:layout_height="wrap_content"
+            android:text="@string/str_btnConfig"
+            style="@style/CustomStyleButton"
+            android:layout_marginTop="40dp"
+            android:drawableLeft="@mipmap/ic_settings_black_24dp_"/>
+
+    </LinearLayout>
+
+    <include android:id="@+id/toolbar"
+        layout="@layout/tool_bar"/>
+
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <int name="flag">0</int>
+    <string name="start_time"></string>
+    <string name="end_time"></string>
+    <int name="floor_first"></int>
+    <int name="floor_end"></int>
+    <int name="interval_time"></int>
+    <int name="max_weight"></int>
+    <boolean name="flag_alarm_working"></boolean>
+</config>
