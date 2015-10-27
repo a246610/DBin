@@ -21,7 +21,7 @@ import com.example.administrator.dbin.R;
 
 public class MainActivity extends AppCompatActivity {
 
-    public static final String myPreferences = "config ";
+    public static final String myPreferences = "config";
     private Button btnStart,btnStop,btnConfig, btnShowData;
     private  SharedPreferences pre;
     private PendingIntent pendingIntent;
