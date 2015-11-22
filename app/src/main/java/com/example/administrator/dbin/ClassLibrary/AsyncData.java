@@ -35,7 +35,7 @@ public class AsyncData extends AsyncTask<Void,Void,JsonDBin>{
     private ProgressDialog dialog;
     private  View view;
     //private String httpURL = "http://192.168.78.1:8080/sendData";
-    private String httpURL = "http://192.168.0.100:8080/sendData";
+    private String httpURL = "http://192.168.0.123:8080/sendData";
     private int codeProcess;
 
     String first_floor;

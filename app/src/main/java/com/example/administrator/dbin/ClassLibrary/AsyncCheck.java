@@ -25,7 +25,7 @@ import java.net.URL;
 public class AsyncCheck extends AsyncTask<Void, Void, Integer> {
 
     //private String httpURL = "http://192.168.78.1:8080/checkRoute";
-    private String httpURL = "http://192.168.0.100:8080/checkRoute";
+    private String httpURL = "http://192.168.0.123:8080/checkRoute";
     private Context context;
     private String first_floor;
     private String end_floor;
@@ -38,18 +38,12 @@ public class AsyncCheck extends AsyncTask<Void, Void, Integer> {
     protected void onPreExecute() {
         super.onPreExecute();
 
-//bam vao dau
-        //tum lai a k hiue cai j het tron :v
-        //anh bam vao du lieu thung rac o may ao google nexus ah no bi loi
-        //con bam vao cai o sam sung thi no chay duoc
-        //class chay cai cho do la day ha
-        //da dung r nh
         SharedPreferences sharedPreferences = context.getSharedPreferences(MainActivity.myPreferences,  Context.MODE_PRIVATE);
         first_floor = String.valueOf( sharedPreferences.getInt("floor_first", -2));
         end_floor = String.valueOf(sharedPreferences.getInt("floor_end", -2));
         httpURL += "/" + first_floor + "/" + end_floor;
     }
-//tum lai la cai may ao cua android studio k chay dc ha
+    //tum lai la cai may ao cua android studio k chay dc ha
     //google nexus anh cai con lai ok cung 1 code luon ah
     @Override
     protected Integer doInBackground(Void... params) {

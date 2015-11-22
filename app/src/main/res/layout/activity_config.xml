@@ -30,6 +30,7 @@
                     android:layout_height="wrap_content"
                     android:layout_column="2"
                     android:text="Button"
+                    style="@style/CustomStyleButton"
                     android:layout_marginLeft="10dp"/>
             </TableRow>
 
@@ -46,6 +47,7 @@
                     android:layout_height="wrap_content"
                     android:layout_column="2"
                     android:text="Button"
+                    style="@style/CustomStyleButton"
                     android:layout_marginLeft="10dp"/>
             </TableRow>
 

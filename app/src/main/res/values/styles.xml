@@ -1,17 +1,17 @@
 <resources>
 
-    <color name="ColorBackground">#464444</color>
-    <color name="ColorToolBar">#fff</color>
+    <color name="ColorBackground">#fff</color>
+    <color name="ColorToolBar">#cedf39</color>
 
-    <color name="ColorTextButton">#dedfdc</color>
-    <color name="ColorBackgroundButton_">#056205</color>
-    <color name="ColorBackgroundButton_press">#69A169</color>
+    <color name="ColorTextButton">#fff</color>
+    <color name="ColorBackgroundButton_">#000</color>
+    <color name="ColorBackgroundButton_press">#000</color>
     <color name="ColorStrokeButton">#fff</color>
 
     <color name="ColorBackgroundTab">#056205</color>
-    <color name="ColorTabScroll">#fff</color>
+    <color name="ColorTabScroll">#056205</color>
 
-    <color name="ColorTextView">#fff</color>
+    <color name="ColorTextView">#000</color>
 
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
@@ -36,7 +36,7 @@
         <item name="android:ems">8</item>
         <item name="android:layout_marginLeft">10dp</item>
         <item name="android:gravity">center</item>
-        <item name="android:textColor">#fff</item>
+        <item name="android:textColor">#000</item>
     </style>
     <!-- style for toolbar -->
     <style name="MyToolbar" parent="Theme.AppCompat.Light.NoActionBar">

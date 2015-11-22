@@ -37,7 +37,7 @@ public class RouteAdapter extends ArrayAdapter<Route> {
         if (rowState >= 0){
             v = inflater.inflate(R.layout.listview_content_row, null);
             TextView textView_row_desc =(TextView) v.findViewById(R.id.textView_row_desc);
-            textView_row_desc.setText(objects.get(position).getDesc());
+            textView_row_desc.setText("► " + objects.get(position).getDesc());
 
             TextView textView_row_state =(TextView) v.findViewById(R.id.textView_row_state);
             textView_row_state.setText(objects.get(position).getState() + "%");
