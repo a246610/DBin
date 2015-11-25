@@ -34,8 +34,8 @@ public class AsyncData extends AsyncTask<Void,Void,JsonDBin>{
     private Activity context;
     private ProgressDialog dialog;
     private  View view;
-    //private String httpURL = "http://192.168.78.1:8080/sendData";
-    private String httpURL = "http://192.168.0.123:8080/sendData";
+    private String httpURL = "http://192.168.78.1:8080/sendData";
+    //private String httpURL = "http://192.168.0.123:8080/sendData";
     private int codeProcess;
 
     String first_floor;
@@ -87,7 +87,10 @@ public class AsyncData extends AsyncTask<Void,Void,JsonDBin>{
     protected void onPostExecute(JsonDBin jsonDBin) {
         super.onPostExecute(jsonDBin);
 
-        if (jsonDBin == null) return;
+        if (jsonDBin == null){
+            dialog.dismiss();
+            return;
+        }
         int floor_flag;
 
         if (codeProcess == ShowDataActivity.CODE_DATA){
