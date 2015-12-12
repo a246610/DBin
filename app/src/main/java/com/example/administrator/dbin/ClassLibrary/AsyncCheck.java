@@ -25,7 +25,7 @@ import java.net.URL;
 public class AsyncCheck extends AsyncTask<Void, Void, Integer> {
 
     private String httpURL = "http://192.168.78.1:8080/checkRoute";
-    //sprivate String httpURL = "http://192.168.0.123:8080/checkRoute";
+    //private String httpURL = "http://192.168.0.123:8080/checkRoute";
     private Context context;
     private String first_floor;
     private String end_floor;
